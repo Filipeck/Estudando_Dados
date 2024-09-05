@@ -1,0 +1,20 @@
+git config --global
+git config --global user.name (passar nome entre "")
+git config --global user.email
+git config init.defaultBranch (configura o nome padrão da branch)
+git config --global --list (mostra todas as configurações que já fizemos no global)
+git config credential.helper store (outra opção é cache, quando usado store a credencial ficará armazenada, já a cache é caso a máquin seja compartilhada)
+git clone "seu local clonado" nome-pasta-local(insere o local que será clonado)
+git remote -v (mostra o repositório remoto que está vinculado)
+git remote add origin URL (adiciona um repositório local a um remoto)
+
+Gerando ssh -> 
+ssh-keygen -t ed25519 -C "contato.fcayres@gmail.com"
+
+cd (vai para o local desejado)
+mkdir pasta-teste (mkdir cria uma pasta)
+ls (lista os arquivos dentro de um local)
+cat (comumente usado para exibir o conteúdo de um ou vários arquivos de texto)
+
+ATALHOS
+ctrl + L = limpa o terminal
