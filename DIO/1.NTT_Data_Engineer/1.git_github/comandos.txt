@@ -12,6 +12,7 @@ Gerando ssh ->
 ssh-keygen -t ed25519 -C "contato.fcayres@gmail.com"
 
 cd (vai para o local desejado)
+touch README.md(cria arquivo vazio)
 mkdir pasta-teste (mkdir cria uma pasta)
 ls (lista os arquivos dentro de um local)
 cat (comumente usado para exibir o conteúdo de um ou vários arquivos de texto)
