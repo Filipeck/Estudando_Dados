@@ -1,3 +1,5 @@
+# verifica se existe uma chave em um dicionário
+
 contatos = {
     "guilherme@gmail.com": {"nome": "Guilherme", "telefone": "3333-2221"},
     "giovanna@gmail.com": {"nome": "Giovanna", "telefone": "3443-2121"},
@@ -15,4 +17,7 @@ resultado = "idade" in contatos["guilherme@gmail.com"]  # False
 print(resultado)
 
 resultado = "telefone" in contatos["giovanna@gmail.com"]  # True
+print(resultado)
+
+resultado = 'telefone' in contatos
 print(resultado)
